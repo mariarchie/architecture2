@@ -1,6 +1,6 @@
 package Heroes;
-import Suits.Armor;
-import Weapons.Sword;
+import SuitsFactory.Armor;
+import WeaponFactory.Sword;
 
 public class Knight extends Hero{
     public Knight(){
@@ -8,6 +8,6 @@ public class Knight extends Hero{
         this.weapon = new Sword();
         this.suit = new Armor();
 
-        System.out.println("Knight is created");  
+        System.out.printf("Knight is created, HP = %s\n", HP);  
     }
 }

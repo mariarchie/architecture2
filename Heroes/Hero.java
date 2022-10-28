@@ -1,12 +1,12 @@
 package Heroes;
-import Suits.Suit;
-import Weapons.Weapon;
+import SuitsFactory.Suit;
+import WeaponFactory.Weapon;
 
 public class Hero {
 
-    int Lvl;
     Weapon weapon;
     Suit suit;
+    public static int HP = 100;
 
     public void HeroAttack() {
         Weapon.attack();
@@ -29,6 +29,5 @@ public class Hero {
 
     private void suit() {
     }
-
     
 }

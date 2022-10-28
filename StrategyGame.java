@@ -1,4 +1,4 @@
-import Heroes.Archor;
+import Heroes.Archer;
 import Heroes.Hero;
 import Heroes.Knight;
 
@@ -7,15 +7,15 @@ class StrategyGame {
 		System.out.println("Game started");
 		
 		Hero knight = new Knight();
-		Hero archor = new Archor();
+		Hero archer = new Archer();
 		
 		System.out.println("Knight moves");
 		knight.HeroAttack();
 		knight.HeroProtect();
 
 		
-		System.out.println("Archor moves");
-		archor.HeroAttack();
-		archor.HeroProtect();
+		System.out.println("Archer moves");
+		archer.HeroAttack();
+		archer.HeroProtect();
 	}
 }

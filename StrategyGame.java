@@ -11,11 +11,10 @@ class StrategyGame {
 		
 		System.out.println("Knight moves");
 		knight.HeroAttack();
-		knight.HeroProtect();
+		archer.HeroProtect();
 
-		
 		System.out.println("Archer moves");
 		archer.HeroAttack();
-		archer.HeroProtect();
+		knight.HeroProtect();
 	}
 }
